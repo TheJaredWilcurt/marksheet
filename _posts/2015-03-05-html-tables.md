@@ -42,7 +42,7 @@ When writing the code, you need to define your table cells from left to right, a
 </table>
 {% endhighlight %}
 
-<div class="result">
+<div class="result table">
   <table>
     <tr>
       <td>John Lennon</td>
@@ -104,7 +104,7 @@ Let's enhance the previous table with a head and a body:
 </table>
 {% endhighlight %}
 
-<div class="result">
+<div class="result table">
   <table>
     <thead>
       <tr>
@@ -172,7 +172,7 @@ Let's also add a foot to the table:
 </table>
 {% endhighlight %}
 
-<div class="result">
+<div class="result table">
   <table>
     <thead>
       <tr>
@@ -235,7 +235,7 @@ Keep in mind that in order to merge _columns_ you need to use the `rowspan` attr
 </table>
 {% endhighlight %}
 
-<div class="result">
+<div class="result table">
   <table>
     <tr>
       <th colspan="2">Michael Jackson Singles</th>
